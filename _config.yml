@@ -1,1 +1,8 @@
 theme: jekyll-theme-minimal
+
+title: Guiro | User-Guided Matrix Reordering
+description: A Visual Analytics Tool for Experiencing Matrix Reorderings
+
+logo: logo.png
+show_downloads: true
+google_analytics: UA-68179544-6
