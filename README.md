@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Welcome to Guiro (User-Guided Matrix Reordering)
 
-You can use the [editor on GitHub](https://github.com/mbehrisch/guiro.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can access the source code here.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### List of Microservices
 
-### Markdown
+- Gateway: Connects Microservices; Central Login; Front-End
+- Matrixordering: contains all the matrix reordering algorithms and R-bridge (based on docker: rocker/verse); REST Swagger
+- Featureprojector: contains all the projection algorithms; REST Swagger
+- Database: stores the data and caches results; MongoDB (docker: mongodb)
+- FeatureStats: gives statistics about dataset
+- Kafka, Zookeeper, MariaDB: Service functionality in the background; inter-service communication;
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Our implementation is based on Jhipster <www.jhipster.io>. More info there.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Running the microservices
 
-- Bulleted
-- List
+TBD
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mbehrisch/guiro.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
